@@ -9,7 +9,7 @@ function App() {
   return (
     <div id="main">
 
-    <button id= "click" onClick={ButtonClick}> Click</button>
+    <button id= "click" onClick={ButtonClick()}> Click</button>
     </div>
   );
 }
