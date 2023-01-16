@@ -3,7 +3,9 @@ import "./../styles/App.css";
 
 function App() {
   const ButtonClick =() =>{
-    <p id = "para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
+    <p id = "para">
+      alert(Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy)
+    </p>
      }
   return (
     <div id="main">
