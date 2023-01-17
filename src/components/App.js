@@ -3,13 +3,13 @@ import "./../styles/App.css";
 
 function App() {
   const ButtonClick =() =>{
-    <p id = "para">
-      alert(Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy)
-    </p>
+   
      }
   return (
     <div id="main">
-    <button id= "click" onClick={ButtonClick}> Click</button>
+    <button id= "click" onClick={ButtonClick}>click
+     <p id = "para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
+    </button>
     </div>
   );
 }
