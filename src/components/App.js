@@ -3,16 +3,14 @@ import "./../styles/App.css";
 
 function App() {
   const [hide, sethide] = useState(false);
-  const handleClick = () => {
+  const buttonClick = () => {
     const newHide = !hide;
     sethide(newHide);
   };
 
   return (
     <div id="main">
-      <button id="click" onClick={handleClick}>
-        button
-      </button>
+      <button id="click" onClick={buttonClick}> click me </button>
       {hide === true ? (
         <p id="para">
           Hello, I've learnt to use the full-stack evaluation tool. This makes
